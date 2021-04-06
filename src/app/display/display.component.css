@@ -1,0 +1,18 @@
+.container{
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    margin: 40px;
+}
+.div1{
+    right:30px;
+    position: absolute;
+}
+.container:after{
+    content: "";
+    clear: both;
+    display: table;
+  }

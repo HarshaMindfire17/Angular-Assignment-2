@@ -1,0 +1,73 @@
+:host 
+{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input.ng-invalid.ng-touched 
+{
+  border: 1px solid red;
+}
+
+.container 
+{
+  margin-top: 30px;
+}
+
+.second
+{
+  background-color: bisque;
+  border-radius: 10px;
+  margin:auto;
+  padding: 30px;
+}
+
+.row
+{
+  margin-bottom: 1.6%;
+}
+
+label
+{
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+.help-block
+{
+  color:red;
+}
+
+.imgDiv div
+{
+  margin-bottom: 3px;
+  color: red;
+}
+
+.iblock
+{
+  display: inline-block;
+}
+
+.gap
+{
+  width: 8%;
+  display: inline-block; 
+} 
+
+.copied *
+{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.setRadio
+{
+font-size: 17px;
+display: inline;
+}
+

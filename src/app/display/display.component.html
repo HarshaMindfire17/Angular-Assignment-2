@@ -1,0 +1,111 @@
+
+<div class="container">
+  <u>
+    <h1 class="head">
+    Employee Details
+    </h1> 
+  </u>
+  <div class="div1 col-xs-12 col-md-3">
+    <img [src]="url" width="120px" height="150px" *ngIf="url">
+  </div>
+  
+  <div class="div2 col-xs-12 col-md-7">
+    <div class="row">
+        <div class="col-xs-5 col-md-4">Name:</div>
+        <div class="col-xs-7 col-md-8">
+          {{user.fname+" "+user.lname}}
+        </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Date Of Birth:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.dob}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">PAN Number:</div>
+      <div class="col-xs-7 col-md-8">
+          {{user.pan}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Aadhar Number:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.aadhar}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Gender:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.gender}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Email:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.email}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Phone:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.phone}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Alt. Phone:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.phone2}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Current Address:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.address1}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Permanant Address:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.address2}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">City:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.city}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">State:</div>
+      <div class="col-xs-7 col-md-8">
+          {{user.state}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Country:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.country}}
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-5 col-md-4">Pincode:</div>
+      <div class="col-xs-7 col-md-8">
+        {{user.pin}}
+      </div>
+    </div>
+  </div>
+</div>
